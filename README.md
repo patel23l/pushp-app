@@ -5,4 +5,4 @@ A fully-functional e-commerce website used as an online art store.
 Coming soon...
 
 ## Acknowledgement
-Learning by following Bassir Jafarzadeh (Programming Instructor)
+Learning by following Bassir Jafarzadeh
