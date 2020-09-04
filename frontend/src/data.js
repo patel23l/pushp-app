@@ -8,7 +8,7 @@ export default {
             section: 'Religion',
             rating: 4.5,
             numReviews: 10,
-            countInStock: 6,
+            countInStock: 0,
         },
         {
             _id: '2',
@@ -18,7 +18,7 @@ export default {
             section: 'Religion',
             rating: 4.0,
             numReviews: 7,
-            countInStock: 6,
+            countInStock: 0,
         },
         {
             _id: '3',
@@ -28,7 +28,7 @@ export default {
             section: 'Religion',
             rating: 4.9,
             numReviews: 7,
-            countInStock: 6,
+            countInStock: 1,
         },
         {
             _id: '4',
@@ -38,6 +38,6 @@ export default {
             section: 'Nature',
             rating: 4.5,
             numReviews: 13,
-            countInStock: 6,
+            countInStock: 2,
         }
 ]}
