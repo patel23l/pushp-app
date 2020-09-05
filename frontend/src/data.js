@@ -1,5 +1,3 @@
-//test comment
-
 export default {
     products:[
         {
@@ -10,7 +8,7 @@ export default {
             section: 'Religion',
             rating: 4.5,
             numReviews: 10,
-            countInStock: 0,
+            countInStock: 2,
         },
         {
             _id: '2',
@@ -20,7 +18,7 @@ export default {
             section: 'Religion',
             rating: 4.0,
             numReviews: 7,
-            countInStock: 0,
+            countInStock: 4,
         },
         {
             _id: '3',
@@ -30,7 +28,7 @@ export default {
             section: 'Religion',
             rating: 4.9,
             numReviews: 7,
-            countInStock: 1,
+            countInStock: 6,
         },
         {
             _id: '4',
@@ -40,6 +38,6 @@ export default {
             section: 'Nature',
             rating: 4.5,
             numReviews: 13,
-            countInStock: 2,
+            countInStock: 8,
         }
 ]}
