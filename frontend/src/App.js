@@ -6,6 +6,7 @@ import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import SigninScreen from './screens/SigninScreen';
 import { useSelector } from 'react-redux';
+import RegisterScreen from './screens/RegisterScreen';
 
 function App() {
 
@@ -32,9 +33,9 @@ function App() {
                 <div className = "header-links">
                     <a href = "cart.html">Cart </a>
                     {
-                        userInfo && <Link to = "/profile">{userInfo.name}</Link>
+                        userInfo ? <Link to = "/profile">{userInfo.name}</Link> : <Link to = "/signin"> Sign In</Link>
+
                     }
-                    <Link to = "/signin"> Sign In</Link>
                 </div>
             </header>
             <aside className = "sidebar">
@@ -57,6 +58,7 @@ function App() {
             <main className = "main">
                 <div className = "content">
                     <Route path = "/signin" component = {SigninScreen} />
+                    <Route path = "/register" component = {RegisterScreen} />
                     <Route path = "/product/:id" component = {ProductScreen} />
                     <Route path = "/cart/:id?" component = {CartScreen} />
                     <Route path = "/" exact = {true} component = {HomeScreen} />
