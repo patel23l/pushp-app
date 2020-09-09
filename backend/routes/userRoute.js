@@ -48,8 +48,8 @@ router.post('/signin', async (req, res) => {
     try {
       const user = new User({
         name: 'Nandini',
-        email: 'patel23l@uwindsor.ca',
-        password: '123',
+        email: '*',
+        password: '*',
         isAdmin: true,
       });
       const newUser = await user.save();
