@@ -4,7 +4,7 @@ import Cookie from 'js-cookie';
 import { productListReducer, productDetailsReducer, productSaveReducer, productDeleteReducer} from './reducers/productReducer';
 import { cartReducer } from './reducers/cartReducers';
 import { userSigninReducer, userRegisterReducer } from './reducers/userReducers';
-import { OrderCreateReducer, orderCreateReducer, orderDetailsReducer } from './reducers/orderReducers';
+import { orderCreateReducer, orderDetailsReducer } from './reducers/orderReducers';
 
 const cartItems = Cookie.getJSON("cartItems") || [];
 const userInfo = Cookie.getJSON("userInfo") || null;
